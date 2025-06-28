@@ -2,7 +2,7 @@
 
 A modern, fully-responsive personal portfolio built with **React 18** and **Tailwind CSS 3**, designed to showcase professional work, skills, and experience in an elegant dark-themed interface.
 
-![Portfolio Preview](creatiwise-porffolio.vercel.app)
+[Preview](https://creatiwise-portfolio.vercel.app/)
 
 
 ---
