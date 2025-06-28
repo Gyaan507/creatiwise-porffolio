@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
 
-function App() {
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+
+import HeroSection from "./components/sections/HeroSection";
+import ExpertiseSection from "./components/sections/ExpertiseSection";
+import WorksSection from "./components/sections/WorksSection";
+import ExperienceSection from "./components/sections/ExperienceSection";
+import BlogSection from "./components/sections/BlogSection";
+import TestimonialsSection from "./components/sections/TestimonialsSection";
+import FAQSection from "./components/sections/FAQSection";
+
+import "./index.css" // Tailwind/global styles
+
+
+// import Footer from './components/layout/Footer';
+
+import './index.css';   // tailwind / global styles
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-black text-white">
+      <Header />
+      <HeroSection />
+      <ExpertiseSection />
+      <WorksSection />
+      <ExperienceSection />
+      <BlogSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <Footer />
     </div>
   );
 }
-
-export default App;
